@@ -1,0 +1,73 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #fff3e7;
+}
+
+.card {
+  border: none;
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.nav-link,
+.link-color {
+  color: #212529;
+  transition: all .3s;
+}
+
+.nav-link:hover,
+.link-color:hover {
+  color: #ca1919;
+  transform: translateY(-2px);
+}
+
+/* a.counter {
+  text-decoration: none;
+  color: #fff;
+}
+
+.counter div {
+  width: 45px;
+  height: 43px;
+  border: none;
+}
+
+.siz .form-select {
+  width: 160px;
+  padding-left: 15px;
+}
+
+.siz .form-select:focus,
+.qty .form-select:focus {
+  box-shadow: none;
+  border-color: #e6e6e6;
+}
+
+.qty .form-select {
+  width: 70px;
+  padding-left: 15px;
+} */
+
+.showModel:hover {
+  cursor: pointer;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+}
