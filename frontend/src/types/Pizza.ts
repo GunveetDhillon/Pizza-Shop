@@ -1,9 +1,10 @@
 export type Pizza = {
+  _id: string;
+  image: string;
   name: string;
   slug: string;
-  //   size: string;
   price: number;
+  stock: number;
   category: string;
-  image: string;
   description: string;
 };
